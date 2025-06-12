@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    background-color: #8d6c4d;
+}
+
+.containerNav{
+    width: 80vw;
+    margin: 0 auto;
+    border: 1px solid;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logoHeader{
+    display: block;
+}
+
+.nav_list{
+    border: 1px solid;
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    justify-content: end;
+    align-items: center;
+}

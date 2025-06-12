@@ -17,24 +17,27 @@ header{
 .containerNav{
     width: 80vw;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 nav{
 display: flex;
 }
+
+
+
 /*Section Header*/
 
 .fundoHeader{
     width: 100%;
-    background-color: rgb(188, 167, 139);
+    background-color: #8d6c4d;
 }
 
 .containerHeader{
     width: 80vw;
     height: auto;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
     gap: 5px; /*Disntância entre as células*/
     grid-template-columns: repeat(12, 1fr);
@@ -42,29 +45,29 @@ display: flex;
 }
 
 #psHeadertitulo{
-    background-color: blueviolet;
-    margin-top: 150px;
+    /* background-color: blueviolet; */
+    margin-top: 50px;
     grid-column: 2 / 6;
     grid-row: 2 / 3;
     
 }
 
 #psHeadertxt{
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     grid-column: 2 / 7;
     grid-row: 3 / 4;
 }
 
 #psButtonHeader{
-    background-color: cornflowerblue;
-    margin-bottom: 150px;/*distância do botão até a margem da section*/
+    /* background-color: cornflowerblue; */
+    margin-bottom: 50px;/*distância do botão até a margem da section*/
     grid-column: 2 / 3;
     grid-row: 4 / 5;
 }
 
 #psImgHeader{
-    background-color: azure;
-    margin-top: 150px;
+    /* background-color: azure; */
+    margin-top: 50px;
     margin-bottom: 150px;
     grid-column: 8 / 12;
     grid-row: 1 / 7;
@@ -113,14 +116,14 @@ display: flex;
 /*Section QUem somos*/
 .fundoQuemSomos{
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .containerQS{
     width: 80vw;
     height: auto;
     margin: 0 auto;
-    border: 1px solid;
+    /* border: 1px solid; */
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(12, 1fr);
@@ -128,7 +131,7 @@ display: flex;
 }
 
 #psImgQS{
-    background-color: bisque;
+    /* background-color: bisque; */
     margin-top: 150px;
     margin-bottom: 150px;
     grid-column: 2 / 6;
@@ -140,20 +143,20 @@ display: flex;
 }
 
 #psQStitulo{
-    background-color: rgb(139, 114, 85);
-     margin-top: 250px;
+    /* background-color: rgb(139, 114, 85); */
+     margin-top: 150px;
     grid-column: 7 /12;
     grid-row: 2 / 3;
 }
 
 #psQSsubtitulo{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     grid-column: 7 /12;
     grid-row: 3 / 4;
 }
 
 #psQStxt{
-    background-color: darkgray;
+    /* background-color: darkgray; */
     margin-bottom: 150px;
     grid-column: 7 / 12;
     grid-row: 4 / 5;
@@ -184,13 +187,13 @@ display: flex;
     }
 
     #psQSsubtitulo{
-        background-color: aliceblue;
+        /* background-color: aliceblue; */
         grid-column: 2 /6;
         grid-row: 3 / 4;
     }
 
     #psQStxt{
-        background-color: darkgray;
+        /* background-color: darkgray; */
         margin-bottom: 100px;
         grid-column: 2 / 6;
         grid-row: 4 / 5;
@@ -206,14 +209,14 @@ display: flex;
 /*Section ingredientes*/
 .fundoIngredientes{
     width: 100%;
-    background-color: #8d6c4d;
+    /* background-color: #8d6c4d; */
 }
 
 .containerIng{
     width: 80vw;
     height: auto;
     margin: 0 auto;
-    border: 1px solid;
+    /* border: 1px solid; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -237,7 +240,7 @@ display: flex;
 }
 
 .formIMGIng{
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 100px;
     width:100%;
 }
