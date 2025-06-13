@@ -9,7 +9,7 @@
   color: #f7a518;
 }
 
-#psHEadertxt, .formTxt{
+#psHEadertxt, .formTxt, .list,a{
     font-family: "Poppins", sans-serif;
     font-weight: 50;
     font-style: normal;

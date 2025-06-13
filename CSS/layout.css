@@ -17,7 +17,7 @@ header{
 .containerNav{
     width: 80vw;
     margin: 0 auto;
-    /* border: 1px solid black; */
+    height: auto;
 }
 
 nav{
@@ -46,7 +46,7 @@ display: flex;
 
 #psHeadertitulo{
     /* background-color: blueviolet; */
-    margin-top: 50px;
+    margin-top: 100px;
     grid-column: 2 / 6;
     grid-row: 2 / 3;
     
@@ -67,7 +67,7 @@ display: flex;
 
 #psImgHeader{
     /* background-color: azure; */
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 150px;
     grid-column: 8 / 12;
     grid-row: 1 / 7;
