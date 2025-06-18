@@ -68,9 +68,9 @@ display: flex;
 #psImgHeader{
     /* background-color: azure; */
     margin-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     grid-column: 8 / 12;
-    grid-row: 1 / 7;
+    grid-row: 1 / 7 ;
 }
 
 /*Formantando o tamanho da imagem*/
@@ -115,6 +115,17 @@ display: flex;
 /*----------------------------------------------------------*/
 /*Section QUem somos*/
 .fundoQuemSomos{
+    /*Colocando a onda como background*/
+    background-image: url(../IMG/fundo_onda.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    /*
+        background-image - buscando a imagem;
+        background-size: ocupando toda a tela - Obs.: img com resolução muito grande
+        background-repeat - para não ficar repetindo.
+        
+        importante - o fundo (onda) fui adicionado na section posterior
+    */
     width: 100%;
     /* background-color: aquamarine; */
 }

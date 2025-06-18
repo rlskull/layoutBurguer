@@ -1,0 +1,91 @@
+
+/*parte 01*/
+.formImgHeader{
+    transform-origin: center top;
+    transform-style: preserve-3d;
+    transition: 0.3s;
+}
+
+/*parte 02*/
+.formImgHeader:after{
+    content: '';
+    z-index: 10;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+/*parte 03*/
+.formImgHeader:hover,
+.formImgHeader:focus,
+.formImgHeader:active{
+
+    transform: translateY(-22px) scale(1.07) rotateX(1deg);
+}
+
+
+/*Explicando os comandos*/
+/*
+
+----------------parte 01---------------
+transform-origin: center top;
+Define o ponto de origem das transformações (como rotação ou escala) no centro superior do elemento.
+
+transform-style: preserve-3d;
+Permite que transformações tridimensionais (3D) em filhos sejam mantidas.
+
+transition: 0.3s;
+Aplica uma transição suave de 0.3 segundos nas propriedades animáveis (como transformações).
+
+
+
+
+----------------parte 02---------------
+
+content: '';
+Cria um pseudo-elemento :after vazio (usado para efeitos visuais).
+
+z-index: 10;
+Garante que esse pseudo-elemento fique sobre elementos com z-index menor.
+
+transform: rotate(45deg);
+Rotaciona o pseudo-elemento em 45 graus.
+
+transition: 0.3s;
+Aplica animação suave em transformações ou mudanças no pseudo-elemento.
+
+
+
+----------------parte 03---------------
+
+translateY(-22px) → Move o elemento 22 pixels para cima.
+
+scale(1.07) → Aumenta o tamanho em 7%.
+
+rotateX(1deg) → Inclina levemente o elemento em torno do eixo horizontal (efeito 3D leve).
+
+*/
+
+
+
+
+.formImgQS{
+    transform-origin: center top;
+    transform-style: preserve-3d;
+    transition: 0.3s;
+}
+
+/*parte 02*/
+.formImgQS:after{
+    content: '';
+    z-index: 10;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+/*parte 03*/
+.formImgQS:hover,
+.formImgQS:focus,
+.formImgQS:active{
+
+    transform: translateY(-22px) scale(1.07) rotateX(1deg);
+}
